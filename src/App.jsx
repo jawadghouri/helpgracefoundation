@@ -14,7 +14,8 @@ function App() {
       </div>
       <h1>The website is under construction.</h1>
       <p>
-        For more information, please write us at helpgracefoundation@gmail.com
+        For more information, please write us at <br />
+        helpgracefoundation@gmail.com
       </p>
     </>
   );
