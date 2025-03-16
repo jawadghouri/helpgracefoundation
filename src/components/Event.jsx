@@ -8,13 +8,12 @@ function Event() {
         <img src={giftsEvent} alt='Success Story' />
       </div>
       <div className='content'>
-        <h4>SUCCESS STORIES</h4>
-        <h2>
-          Water Is Life. We Successfully Provide Clean Water in South East Asia
-        </h2>
+        <h4>Recent Event</h4>
+        <h2>Chrismas. Joy. Childern</h2>
         <p>
-          Far far away, behind the word mountains, far from the countries
-          Vokalia and Consonantia, there live the blind texts.
+          What is Christmas without happiness on faces of childern. With the
+          help of our local donors, distributed Christmas gifts amoung childern
+          of less privileged families.
         </p>
         <p className='highlight'>
           We have raised <strong>PKR 50,000</strong>
