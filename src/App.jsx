@@ -1,22 +1,20 @@
-// import { useState } from "react";
-import helpGraceFoundationLogo from "./assets/logo.png";
 import "./App.css";
+import AboutOverview from "./components/AboutOverview";
+import Banner from "./components/Banner";
+import Event from "./components/Event";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Statistics from "./components/Statistics";
 
 function App() {
-  // const [count, setCount] = useState(0);
-
   return (
     <>
-      <div>
-        <a href=''>
-          <img src={helpGraceFoundationLogo} className='logo' alt='Vite logo' />
-        </a>
-      </div>
-      <h1>The website is under construction.</h1>
-      <p>
-        For more information, please write us at <br />
-        helpgracefoundation@gmail.com
-      </p>
+      <Header />
+      <Banner />
+      <AboutOverview />
+      <Statistics />
+      <Event />
+      <Footer />
     </>
   );
 }

@@ -1,0 +1,72 @@
+/* Header.css */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 15px 15px;
+  background-color: #fff;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit; /* Keeps the text color unchanged */
+}
+
+.logo-container:hover {
+  opacity: 0.8; /* Slight fade effect on hover */
+}
+
+.nav-logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.header span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav {
+  margin-left: auto; /* Pushes the nav menu to the right */
+}
+
+.nav-list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list a {
+  text-decoration: none;
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: #333;
+  position: relative;
+  padding-bottom: 5px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-list a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #0c4e7b;
+  transition: width 0.4s ease-in-out, left 0.4s ease-in-out, opacity 0.4s;
+  opacity: 0;
+}
+
+.nav-list a:hover {
+  color: #0c4e7b;
+}
+
+.nav-list a:hover::after {
+  width: 100%;
+  left: 0;
+  opacity: 1;
+}
