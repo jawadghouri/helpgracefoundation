@@ -2,9 +2,10 @@ import "./About.css";
 import Header from "../components/Header";
 import AboutBanner from "../components/AboutBanner";
 import Footer from "../components/Footer";
-import Mission from "../components/mission";
+import Mission from "../components/Mission";
 import Messages from "../components/Messages";
 import DonationStripe from "../components/DonationStripe";
+
 import president from "../assets/president.jpg";
 import generalsecretary from "../assets/generalsecretary.jpg";
 export default function About() {
