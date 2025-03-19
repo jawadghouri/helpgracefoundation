@@ -33,12 +33,12 @@ const Footer = () => {
         {/* Contact Section */}
         <div className='footer-section'>
           <h3>Contacts</h3>
-          <ul>
-            <li>+92 306 4526464</li>
-            <li>info@helpgracefoundation.org</li>
-            <li>CA 118, Ground Floor, Usman Plaza,</li>
-            <li>G Magnolia Park, Gujranwala, Pakistan</li>
-          </ul>
+          <p>
+            CA 118, Ground Floor, Usman Plaza,
+            <br /> G Magnolia Park, Gujranwala, Pakistan
+          </p>
+          <p>info@helpgracefoundation.org</p>
+          <p> +92 306 4526464</p>
         </div>
 
         {/* Newsletter Subscription Section */}
@@ -46,7 +46,11 @@ const Footer = () => {
           <h3>Newsletter</h3>
           <p>Stay updated with our latest news and events.</p>
           <div className='newsletter-box'>
-            <input type='email' placeholder='Email Address' />
+            <input
+              type='email'
+              disabled='disabled' // Change it for Newsletter
+              placeholder='Email Address'
+            />
             <button type='submit'>
               <img src={form} alt='Charifit Logo' className='footer-logo-1' />
             </button>

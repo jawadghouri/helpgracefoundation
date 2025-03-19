@@ -1,4 +1,4 @@
-import "./Banner.css";
+import "./HomeBanner.css";
 
 export default function Banner() {
   return (

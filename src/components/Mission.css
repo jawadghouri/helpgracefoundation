@@ -1,0 +1,37 @@
+.mission {
+  margin-top: 6rem;
+  padding: 25px;
+}
+
+.mission h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+
+.statement {
+  display: flex;
+  align-items: stretch; /* Ensures both elements stretch to the same height */
+  gap: 20px; /* Space between image and text */
+}
+
+.statement-img {
+  width: 40%; /* Adjust the width as needed */
+  object-fit: cover; /* Ensures the image scales properly */
+  height: 400px;
+  margin-top: 1.2rem;
+  border-radius: 10px;
+  opacity: 0.9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.statement-text {
+  width: 60%;
+  font-size: 1em;
+  line-height: 1.6;
+  padding: 0 20px;
+}
+
+.statement p {
+  text-align: justify;
+}

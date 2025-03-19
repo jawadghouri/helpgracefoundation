@@ -61,11 +61,11 @@ export default function Header() {
 
   const navItems = [
     { name: "Home", path: "/" },
-    { name: "About", path: "#" },
-    { name: "Campaigns", path: "#" },
-    { name: "Donate", path: "#" },
-    { name: "Events", path: "#" },
-    { name: "Contact", path: "#" },
+    { name: "About", path: "/about" },
+    { name: "Campaigns", path: "/campaigns" },
+    { name: "Donate", path: "/donate" },
+    { name: "Events", path: "/events" },
+    { name: "Contact", path: "/contact" },
   ];
 
   const drawer = (

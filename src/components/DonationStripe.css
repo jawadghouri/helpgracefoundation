@@ -1,0 +1,31 @@
+.donation-banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: beige; /* Light grayish background */
+  padding: 15px 30px;
+  border-radius: 8px; /* Rounded corners */
+  font-family: "Patrick Hand", cursive; /* Handwritten-style font */
+  margin: 50px 5px;
+}
+
+.donation-text {
+  font-size: 22px;
+  color: #333;
+}
+
+.donate-button {
+  background-color: #0c4e7b; /* Green color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.donate-button:hover {
+  background-color: #0056b3; /* Darker green on hover */
+}

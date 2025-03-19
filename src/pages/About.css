@@ -1,0 +1,39 @@
+.about {
+  position: relative; /* Establish positioning context for the watermark */
+}
+
+.about::after {
+  content: "";
+  position: fixed; /* Fixed position for full-screen coverage */
+  top: 0;
+  left: 0;
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  background-image: url("../assets/logo.png"); /* Replace with your logo's path */
+  background-repeat: no-repeat;
+  background-size: contain; /* Or 'cover' for full fill, or pixel values*/
+  background-position: center; /* Center the logo */
+  opacity: 0.1; /* Adjust opacity as needed */
+  pointer-events: none; /* Prevent interference with clicks */
+  z-index: -1; /* Place behind other content */
+}
+
+/* Optional: Adjust for different aspect ratios or screen sizes */
+@media (max-aspect-ratio: 16/9) {
+  /* for taller screens */
+  .about::after {
+    background-size: 80% auto; /*adjust the size of the logo for taller screens*/
+  }
+}
+
+@media (max-width: 768px) {
+  .about::after {
+    opacity: 0.08; /*further reduce opacity on small screens if desired*/
+  }
+}
+
+@media (max-width: 480px) {
+  .about::after {
+    opacity: 0.05;
+  }
+}
