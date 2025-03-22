@@ -11,29 +11,31 @@
   display: flex;
   align-items: center;
   justify-content: flex-start; /* Align content to the left */
-  text-align: left;
   color: white;
   /* padding-left: 50px; Adjust spacing from the left */
   margin-top: 5px;
   border-radius: 5px;
 }
 
-.banner-content {
+.home-banner-content {
   background: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
   padding: 20px 40px;
   border-radius: 10px;
   max-width: 500px; /* Prevents text from stretching too far */
   margin: 0px 20px;
+  text-align: left;
 }
 
 .banner span {
   font-size: 26px;
-  font-weight: 3rem;
+  font-weight: 2.5rem;
+  font-weight: bold;
 }
 
 .banner h1 {
   font-size: 2.5rem;
   margin-bottom: 10px;
+  text-align: left;
 }
 
 .banner p {

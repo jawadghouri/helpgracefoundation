@@ -10,11 +10,11 @@
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: inherit;
+  color: inherit; /* Keeps the text color unchanged */
 }
 
 .logo-container:hover {
-  opacity: 0.8;
+  opacity: 0.8; /* Slight fade effect on hover */
 }
 
 .nav-logo {
@@ -25,12 +25,10 @@
 .header span {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #072366;
-  flex-grow: 1;
 }
 
 nav {
-  margin-left: auto;
+  margin-left: auto; /* Pushes the nav menu to the right */
 }
 
 .nav-list {
@@ -45,7 +43,7 @@ nav {
   text-decoration: none;
   font-size: 1.15rem;
   font-weight: 500;
-  color: #0c4e7b;
+  color: #333;
   position: relative;
   padding-bottom: 5px;
   transition: color 0.3s ease-in-out;
@@ -71,50 +69,4 @@ nav {
   width: 100%;
   left: 0;
   opacity: 1;
-}
-
-.menu-button {
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  cursor: pointer;
-  margin-left: auto;
-  color: #333;
-}
-
-.drawer {
-  position: absolute;
-  top: 70px; /* Adjust as needed */
-  right: 0;
-  background-color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  width: 250px;
-  z-index: 1000;
-}
-
-.drawer-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.drawer-list li a {
-  display: block;
-  padding: 10px 15px;
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-}
-
-.active-link {
-  color: #072366; /* or any active link color */
-}
-
-@media (min-width: 769px) {
-  .menu-button {
-    display: none;
-  }
-  .drawer {
-    display: none;
-  }
 }

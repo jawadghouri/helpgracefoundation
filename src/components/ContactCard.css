@@ -1,0 +1,36 @@
+.contact-card {
+  background-color: #0c4e7b; /* Blue background */
+  color: white; /* White text */
+  padding: 20px;
+  border-radius: 20px;
+  width: 350px; /* Adjust width as needed */
+  font-family: sans-serif;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo-white {
+  width: 20%;
+  height: 20%;
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-item {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.contact-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contact-value {
+  font-size: 1em;
+}

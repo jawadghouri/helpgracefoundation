@@ -1,15 +1,12 @@
 import "./DonationStripe.css";
 
-const DonationBanner = () => {
+/* eslint-disable react/prop-types */
+
+export default function DonationBanner(props) {
   return (
     <div className='donation-banner'>
-      <p className='donation-text'>
-        Helping the <strong>Homeless</strong>, <strong>Hungry</strong>, and{" "}
-        <strong>Hurting</strong> Children
-      </p>
+      <p className='donation-text'>{props.message}</p>
       <button className='donate-button'>Donate Now</button>
     </div>
   );
-};
-
-export default DonationBanner;
+}

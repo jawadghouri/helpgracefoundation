@@ -1,5 +1,5 @@
 import "./About.css";
-import Header from "../components/Header";
+// import Header from "../components/Header";
 import AboutBanner from "../components/AboutBanner";
 import Footer from "../components/Footer";
 import Mission from "../components/Mission";
@@ -11,7 +11,6 @@ import generalsecretary from "../assets/generalsecretary.jpg";
 export default function About() {
   return (
     <div className='about'>
-      <Header />
       <AboutBanner />
       <Mission />
       <Messages
@@ -49,7 +48,7 @@ Through collaboration with educators, volunteers, and supporters, Help Grace Fou
         designation='General Secretary'
         color=''
       />
-      <DonationStripe />
+      <DonationStripe message='"Helping the Homeless, Hungry, and Hurting Children"' />
       <Footer />
     </div>
   );

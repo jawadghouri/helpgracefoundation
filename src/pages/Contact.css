@@ -1,0 +1,53 @@
+/* .contactInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 7rem;
+} */
+
+.contactArea {
+  margin-top: 20px;
+}
+
+.contactInfo {
+  display: flex;
+  align-items: flex-start; /* Align items to the start on larger screens */
+  justify-content: space-around;
+  margin: 3rem 0;
+}
+
+.contact-banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-banner-content h4 {
+  font-size: 2.3rem;
+  margin-bottom: 0;
+}
+
+.contact-banner-content p {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .contactInfo {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center; /* Center items horizontally */
+    margin-top: 3rem; /* Adjust margin for smaller screens */
+  }
+
+  .contactInfo > * {
+    width: 90%; /* Make form and card take up most of the width */
+    margin-bottom: 2rem; /* Add spacing between elements */
+  }
+}
+
+/* Optional: Further adjustments for very small screens */
+@media (max-width: 480px) {
+  .contactInfo > * {
+    width: 100%; /* Take up full width on very small screens */
+  }
+}
