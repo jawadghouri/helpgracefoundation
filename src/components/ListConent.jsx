@@ -1,35 +1,47 @@
 import EventCard from "./EventCard";
 import "./ListContent.css";
+import bags from "./../assets/bags.jpg";
+import foodbags from "./../assets/foodbags.jpg";
+import gifts from "./../assets/christmasgifts.jpg";
+import financialhelp from "./../assets/financialhelp.jpg";
 
 function EventList() {
   const events = [
     {
-      title: "Organising a Charity Parachute Jump",
+      title: "Distributing bags among children",
       description:
-        "Education provides children with opportunities to escape poverty...",
-      date: "26th September 2016 at 6:00 am",
-      readMoreLink: "#",
+        "Help Grace Foundation has successfully distributed school bags to needy children following their academic results, ensuring they are well-prepared for the next school year. This initiative aims to support their education and encourage them to strive for a brighter future",
+      date: "27th March 2025",
+      image: bags,
+      readMoreLink:
+        "https://www.facebook.com/helpgracefoundation/posts/pfbid02xqcaS2wUX2Lrg5qJ45M2d1SsLV4NH6Gh3CPpvtjCHatcRjwg3NaLwLRXxG1BirRKl",
     },
     {
-      title: "The General Theological Seminary",
+      title: "Grocery for needy people",
       description:
-        "I wish again to express my profound gratitude to the clergy and lay leaders...",
-      date: "27th September 2016 at 8:00 am",
-      readMoreLink: "#",
+        "With a small effort, our team distributed essential grocery packages to needy families, ensuring they have access to basic food supplies. This initiative aims to support struggling households and bring relief during challenging times.",
+      date: "10th March 2025",
+      image: foodbags,
+      readMoreLink:
+        "https://www.facebook.com/helpgracefoundation/posts/pfbid02sJyP5mQ4zFCtadX3hJpZRDBmjMQPgwrfpkUQawge6YhM1garnA3XPBZZg2TkVaA1l",
     },
     {
-      title: "Social Networking for Charity",
+      title: "Christmas Gifts for children",
       description:
-        "Education provides children with opportunities to escape poverty...",
-      date: "30th September 2016 at 8:00 am",
-      readMoreLink: "#",
+        "Help Grace Foundation spread joy this holiday season by distributing Christmas gifts to children in need. Our initiative aims to bring smiles and warmth, ensuring every child experiences the festive spirit with love and generosity",
+      date: "23 December 2024",
+      image: gifts,
+      readMoreLink:
+        "https://www.facebook.com/photo/?fbid=122110117706669538&set=a.122098614176669538",
     },
     {
-      title: "The General Theological Seminary",
+      title: "Financial Help to widows on Christmas",
       description:
-        "I wish again to express my profound gratitude to the clergy and lay leaders...",
-      date: "30th September 2016 at 8:00 am",
-      readMoreLink: "#",
+        "Help Grace Foundation provided financial assistance to widows on Christmas, bringing hope and support during the festive season. This initiative aimed to ease their burdens and ensure they could celebrate with dignity and joy",
+      date: "23 December 2024",
+      image: financialhelp,
+      readMoreLink:
+        "https://www.facebook.com/helpgracefoundation/posts/pfbid06Jk5aG1yJ9UNmQiogLXuLx6hqvjWZFpYRhXbX4Eih5ceWFS67CYXcGTgohbDsaQbl",
     },
   ];
 

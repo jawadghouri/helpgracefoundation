@@ -2,3 +2,9 @@
   margin: 3rem 0;
   color: black;
 }
+
+.content h2 {
+  margin-top: 3rem;
+  color: #0c4e7b;
+  border-bottom: 1px grey solid;
+}
