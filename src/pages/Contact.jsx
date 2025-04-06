@@ -21,7 +21,7 @@ export default function Home() {
           <ContactCard />
           <ContactForm />
         </div>
-        <DonationBanner message='Providing Food, Shelter, and Love to Those in Need' />
+        <DonationBanner message='"Providing Food, Shelter, and Love to Those in Need"' />
         <Footer />
       </div>
     </>

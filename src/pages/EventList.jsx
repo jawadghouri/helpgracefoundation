@@ -9,7 +9,7 @@ export default function EventList() {
     <div className='eventlist'>
       <EventBanner />
       <EventListContent />
-      <DonationStripe message='Together, We Can Change Lives' />
+      <DonationStripe message='"Together, We Can Change Lives"' />
       <Footer />
     </div>
   );
