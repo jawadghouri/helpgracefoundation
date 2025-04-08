@@ -1,6 +1,9 @@
 import "./HomeBanner.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Banner() {
+  let navigate = useNavigate();
+
   return (
     <div className='banner'>
       <div className='home-banner-content'>
@@ -10,7 +13,9 @@ export default function Banner() {
           Together, we can make a lasting change and bring smiles to children
           facing hardship.
         </p>
-        <button className='banner-btn'>Get Involved</button>
+        <button onClick={() => navigate("/donate")} className='banner-btn'>
+          Get Involved
+        </button>
       </div>
     </div>
   );

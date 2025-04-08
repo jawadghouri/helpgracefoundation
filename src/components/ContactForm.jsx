@@ -62,7 +62,9 @@ export default function ContactForm() {
           onChange={handleChange}
         ></textarea>
 
-        <button type='submit'>SEND</button>
+        <button type='submit' disabled>
+          SEND
+        </button>
       </form>
     </div>
   );

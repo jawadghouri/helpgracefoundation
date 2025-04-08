@@ -18,7 +18,17 @@ function Event() {
         <p className='highlight'>
           We have raised <strong>PKR 50,000</strong>
         </p>
-        <button className='read-more'>Read the Full Story</button>
+        <button
+          onClick={() =>
+            window.open(
+              "https://www.facebook.com/photo/?fbid=122110117706669538&set=a.122098614176669538",
+              "_blank"
+            )
+          }
+          className='read-more'
+        >
+          Read the Full Story
+        </button>
       </div>
     </div>
   );

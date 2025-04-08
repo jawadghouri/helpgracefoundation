@@ -1,0 +1,45 @@
+.donatewriteup {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 3rem 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #ffebcd;
+  opacity: 0.9;
+}
+
+.writeup-heading {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.writeup-paragraph {
+  margin-top: 1.5rem;
+  padding: 0 4rem;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .writeup-paragraph {
+    padding: 0 2rem;
+    font-size: 16px;
+  }
+
+  .writeup-heading {
+    font-size: 1.8rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .writeup-paragraph {
+    padding: 0 1rem;
+    font-size: 15px;
+  }
+
+  .writeup-heading {
+    font-size: 1.5rem;
+  }
+}

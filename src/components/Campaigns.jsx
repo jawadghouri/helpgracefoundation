@@ -1,6 +1,9 @@
 import "./Campaigns.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Campaigns() {
+  let navigate = useNavigate();
+
   return (
     <div className='donation-container'>
       {/* Left Side */}
@@ -50,7 +53,9 @@ export default function Campaigns() {
           <span>Goal - $10,000</span>
         </div>
 
-        <button className='donate-button'>DONATE NOW</button>
+        <button onClick={() => navigate("/donate")} className='donate-button'>
+          DONATE NOW
+        </button>
       </div>
     </div>
   );

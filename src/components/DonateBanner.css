@@ -1,0 +1,51 @@
+.donatebanner {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background: linear-gradient(rgba(12, 78, 123, 0.7), rgba(12, 78, 123, 0.2)),
+    url("./../assets/DonateBanner.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+  margin-top: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.donate-banner-content h1 {
+  font-size: 5rem;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .donatebanner {
+    height: 450px;
+  }
+
+  .donate-banner-content h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .donatebanner {
+    height: 350px;
+    padding: 10px;
+  }
+
+  .donate-banner-content h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .donatebanner {
+    height: 300px;
+  }
+
+  .donate-banner-content h1 {
+    font-size: 2rem;
+  }
+}
