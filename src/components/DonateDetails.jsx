@@ -47,27 +47,27 @@ export default function DonateDetails() {
           <tbody>
             <tr>
               <td className='label'>Account Title:</td>
-              <td>Help Grace Foundation</td>
+              <td>Samia Nasir</td>
             </tr>
             <tr>
               <td className='label'>Account No:</td>
-              <td>11122233344455</td>
+              <td>0010116217660027</td>
             </tr>
             <tr>
               <td className='label'>Bank Name:</td>
-              <td>ABC Bank Ltd</td>
+              <td>Allied Bank Ltd</td>
             </tr>
             <tr>
               <td className='label'>Branch Name:</td>
-              <td>XYZ Branch – ABC</td>
+              <td>Chan da Qila Branch – Gujranwala</td>
             </tr>
             <tr>
               <td className='label'>Swift Code:</td>
-              <td>ABCDAPKKAXXX</td>
+              <td>ABPAPKKAXXX</td>
             </tr>
             <tr>
               <td className='label'>IBAN:</td>
-              <td>PK12ABCD11122233344455</td>
+              <td>PK78ABPA0010116217660029</td>
             </tr>
           </tbody>
         </table>
@@ -81,7 +81,7 @@ export default function DonateDetails() {
             </tr>
             <tr>
               <td className='label'>JazzCash/EasyPaisa:</td>
-              <td>0333 1122333</td>
+              <td>0306 4526464</td>
             </tr>
           </tbody>
         </table>
