@@ -51,7 +51,7 @@ export default function DonateDetails() {
             </tr>
             <tr>
               <td className='label'>Account No:</td>
-              <td>0010116217660027</td>
+              <td>0010116217660029</td>
             </tr>
             <tr>
               <td className='label'>Bank Name:</td>

@@ -1,5 +1,8 @@
 /* eslint-disable react/prop-types */
-import Image1 from "./../assets/AboutBanner.jpg";
+// import Image1 from "./../assets/AboutBanner.jpg";
+// import Image2 from "./../assets/C2.jpg";
+// import Image3 from "./../assets/C3.jpg";
+import Image1 from "./../assets/1-A.jpg";
 import Image2 from "./../assets/C2.jpg";
 import Image3 from "./../assets/C3.jpg";
 
