@@ -47,27 +47,31 @@ export default function DonateDetails() {
           <tbody>
             <tr>
               <td className='label'>Account Title:</td>
-              <td>Samia Nasir</td>
+              <td>Help Grace Foundation</td>
             </tr>
             <tr>
               <td className='label'>Account No:</td>
-              <td>0010116217660029</td>
+              <td>343669762</td>
             </tr>
             <tr>
               <td className='label'>Bank Name:</td>
-              <td>Allied Bank Ltd</td>
+              <td>United Bank Ltd</td>
+            </tr>
+            <tr>
+              <td className='label'>Branch Code:</td>
+              <td>2620</td>
             </tr>
             <tr>
               <td className='label'>Branch Name:</td>
-              <td>Chan da Qila Branch – Gujranwala</td>
+              <td>Main Commercial Market – G. Magnolia Gujranwala</td>
             </tr>
             <tr>
               <td className='label'>Swift Code:</td>
-              <td>ABPAPKKAXXX</td>
+              <td>UNILPKKA</td>
             </tr>
             <tr>
               <td className='label'>IBAN:</td>
-              <td>PK78ABPA0010116217660029</td>
+              <td>PK21UNIL0109000343669762</td>
             </tr>
           </tbody>
         </table>
