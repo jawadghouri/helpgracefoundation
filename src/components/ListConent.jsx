@@ -43,15 +43,6 @@ function EventList() {
       readMoreLink:
         "https://www.facebook.com/helpgracefoundation/posts/pfbid06Jk5aG1yJ9UNmQiogLXuLx6hqvjWZFpYRhXbX4Eih5ceWFS67CYXcGTgohbDsaQbl",
     },
-    {
-      title: "Event adding Demo",
-      description:
-        "Help Grace Foundation provided financial assistance to widows on Christmas, bringing hope and support during the festive season. This initiative aimed to ease their burdens and ensure they could celebrate with dignity and joy",
-      date: "22 January 2026",
-      image: financialhelp,
-      readMoreLink:
-        "https://www.facebook.com/helpgracefoundation/posts/pfbid06Jk5aG1yJ9UNmQiogLXuLx6hqvjWZFpYRhXbX4Eih5ceWFS67CYXcGTgohbDsaQbl",
-    },
   ];
 
   return (
